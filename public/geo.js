@@ -10,13 +10,13 @@ function getGeoLocation() {
       .then((res) => {
         let address = res.results[0].formatted_address;
         if(localStorage.getItem("Opened") == 1){
-          document.getElementById("loc").innerHTML = "I need police services. My location is: " + address 
+          document.getElementById("loc").innerHTML = "I need police services. My location is: " + address
         }
         else if(localStorage.getItem("Opened") == 2){
-          document.getElementById("loc").innerHTML = "I need ambulance services. My location is: " + address 
+          document.getElementById("loc").innerHTML = "I need ambulance services. My location is: " + address
         }
         else if(localStorage.getItem("Opened") == 3){
-          document.getElementById("loc").innerHTML = "I need fire services. My location is: " + address 
+          document.getElementById("loc").innerHTML = "I need fire services. My location is: " + address
         }
       })
   })
