@@ -16,14 +16,14 @@
 <div class="container-fluid">
    <div class="row">
       <div class="col-sm-12 toppart">
-         <p> SC911 </p>
+         <p> SC <span class="health"> 911 </span></p>
       </div>
 
    </div>
    <div class="row">
 
    </div>
-      
+
 <div class="row">
    <div>
       <p class="sloganadj"> What is your Emergency? </p>
@@ -32,7 +32,7 @@
    <div class="col-sm-4">
       <script>
          logClick = function(){
-            localStorage.setItem("Opened", 1)   
+            localStorage.setItem("Opened", 1)
          }
       </script>
       <div><a href="/home.html" onclick=logClick()>
@@ -53,11 +53,11 @@
 
    <div class="col-sm-4">
       <script>
-         logClick = function(){
-            localStorage.setItem("Opened", 2)   
+         logClick2 = function(){
+            localStorage.setItem("Opened", 2)
          }
       </script>
-      <div><a href="/home.html" onclick=logClick()>
+      <div><a href="/home.html" onclick=logClick2()>
       <div class="circle-container">
          <div class="outer-ring"></div>
          <div class="circle">
@@ -75,12 +75,14 @@
 
 
    <div class="col-sm-4">
-      <script>
-         logClick = function(){
-            localStorage.setItem("Opened", 3)   
-         }
-      </script>
-      <div><a href="/home.html" onclick=logClick()>
+      <form action="/" method="post">
+         <script>
+            logClick3 = function(){
+               localStorage.setItem("Opened", 3)
+            }
+         </script>
+         <div><a href="/home.html" onclick=logClick3()>   
+      </form>
       <div class="circle-container">
          <div class="outer-ring"></div>
          <div class="circle">
