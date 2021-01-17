@@ -178,6 +178,75 @@ body {
   outline: none;
 }
 
+
+@media screen and (max-width: 800px){
+   .inputSize{
+      border-radius: 20px;
+      resize: none;
+      height: 150px;
+      width: 300px;
+      padding-left: 20px;
+      padding-top: 15px;
+      outline: none;
+    }
+
+    .front-one p {
+      margin-top: 2.25em;
+      font-family: cabin, sans-serif;
+      font-weight: 700;
+      font-size: 3.9em;
+      text-align: center;
+   }
+   
+   .front-two p {
+      margin-top: 2.5em;
+      font-family: cabin, sans-serif;
+      font-weight: 700;
+      font-size: 4.5rem;
+      text-align: center;
+      line-height: 10vh;
+   }
+   
+   .front-three p{
+      margin-top: 2.9em;
+      font-family: cabin, sans-serif;
+      font-weight: 700;
+      font-size: 4.5rem;
+      text-align: center;
+   }
+    
+    .circle-container, .front-one, .front-two, .front-three, .front-four, .back {
+      width: 290px;
+      height: 290px;
+      background-color: rgba(0,0,0,0);
+       margin-bottom: 2em;
+   }
+
+   .circle {
+      position: relative;
+      width: 280px;
+      height: 280px;
+      margin: 0 auto;
+   }
+
+   .outer-ring {
+      position: absolute;
+      top: -11px;
+      left: -10.25px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      width: 320px;
+      height: 320px;
+      background-color: rgba(255,255,255,0);
+      box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+      margin-left: 0px;
+      margin-top: -13px;
+   }
+
+
+
+   }
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;

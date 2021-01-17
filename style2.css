@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:style2.css
 @import url(https://fonts.googleapis.com/css?family=Cabin:700);
 
 body {
@@ -24,3 +25,41 @@ body {
 .title {
   font-size: 2.5rem;
 }
+=======
+@import url(https://fonts.googleapis.com/css?family=Cabin:700);
+
+body {
+    padding-top: 2em;
+    background:#315E8D;
+  }
+
+.back-button {
+  position: absolute;
+  font-size: 600%;
+  left: 5%;
+  bottom: 7%;
+}
+
+.back-button:hover{
+  color: #fdec6e;
+  text-shadow: 0px, 0px, 30px, #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 800px){
+  .back-button {
+    position: absolute;
+    font-size: 600%;
+    left: 5%;
+    bottom: -30%;
+  }
+
+}
+>>>>>>> Stashed changes:public/styles2.css
