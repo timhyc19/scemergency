@@ -1,9 +1,7 @@
 # Somebody Call 911
 
-<figure class="video_container">
-  <iframe src="https://youtu.be/hl83m2NyuI4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
- 
+[<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://youtu.be/<VIDEO ID>)
+
 ## Inspiration ☁️: 
 Over the last couple of years, nearly 1 in 4 deaths of Canadians younger than 75 were from preventable or treatable causes. Some of these causes are the difficulty to make the right decisions during an accident, and the ability to get help from the right experts. 
 
