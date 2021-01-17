@@ -10,24 +10,23 @@
 </head>
 
 <body>
-  <div><a href="index.html"></a><a href="/">Home</a></div>
-
+<div class="borderSubmit">
   <form action="/" method="post">
-    <textarea style="display:none;" style="resize: none;" rows="4" name="text" id="loc"></textarea>
+    <textarea style="display:none; resize: none;" rows="4" name="text" id="loc"></textarea>
     <center>
     <h3 id="title">Please enter your emergency:</h3>
-    <input type="text" name = "one" id="id" placeholder="Ex: There is an intruder in the house">
+    <textarea class="inputSize" type="text" name = "one" id="id" placeholder="Ex: There is an intruder in the house"></textarea>
     <br><br>
-    <h3 id="title">Please enter any additional information on this emergency:</h3>
-    <input type="text" name = "two" id="id" placeholder="Ex: The intruder is about 5'9, 140 pounds, and white">
+    <h3 id="title">Enter any additional information:</h3>
+    <textarea class="inputSize" type="text" name = "two" id="id" placeholder="Ex: The intruder is about 5'9, 140 pounds, and white"></textarea>
     <br><br>
     <h3 id="title">Please enter your name and phone number:</h3>
-    <input type="text" name = "three" id="id" placeholder="Ex: My name is Jim Khan, and my phone number is 123-123-1234">
+    <textarea class="inputSize" type="text" name = "three" id="id" placeholder="Ex: My name is Jim Khan, and my phone number is 123-123-1234"></textarea>
     <br><br>
-    <button type="submit" name="submit">Submit to 911</button>
+    <button class="button button5" type="submit" name="submit">Submit to 911</button>
   </center>
   </form>
-
+</div>
   <button onclick="goBack()">Go Back</button>
 
   <script>

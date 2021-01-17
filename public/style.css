@@ -7,14 +7,14 @@ body {
 
 .circle-container {
 	position: relative;
-	perspective: 1000;	
-	margin: 0 auto;	
+	perspective: 1000;
+	margin: 0 auto;
 }
-		
+
 .circle-container:hover .circle {
 	transform: rotate3d(45, 45, 0, 180deg);
 }
-		
+
 .circle-container:hover .outer-ring {
 	transform: rotate3d(45, 0, 0, 180deg);
 }
@@ -22,20 +22,20 @@ body {
 .circle-container:hover .outer-outer-ring {
 	transform: rotate3d(0, 45, 0, 180deg);
 }
-		
+
 .circle-container, .front-one, .front-two, .front-three, .front-four, .back {
 	width: 330px;
 	height: 330px;
 	background-color: rgba(0,0,0,0);
     margin-bottom: 2em;
 }
-		
+
 .circle, .outer-ring, .outer-outer-ring {
 	transition: 0.5s;
 	transform-style: preserve-3d;
 	transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 }
-		
+
 .circle {
 	position: relative;
 	width: 360px;
@@ -52,12 +52,12 @@ body {
 	top: 0;
 	left: 0;
 }
-		
+
 .front-one, .front-two, .front-three, .front-four {
 	background-color: #fff;
 	z-index: 2;
 }
-		
+
 .front-one p {
 	margin-top: 2.25em;
 	font-family: cabin, sans-serif;
@@ -77,17 +77,17 @@ body {
 
 .front-three p{
    margin-top: 2.9em;
-   font-family: cabin, sans-serif; 
+   font-family: cabin, sans-serif;
    font-weight: 700;
    font-size: 4.5rem;
    text-align: center;
 }
-		
+
 .back {
-   transform: rotate3d(45,45,0,180deg); 
+   transform: rotate3d(45,45,0,180deg);
    background-color: #fff;
 }
-		
+
 .back-logo {
 	display: block;
 	margin: 0.7em auto;
@@ -102,7 +102,7 @@ body {
 	margin-left: -12px;
 	margin-top: 70px
 }
-		
+
 .outer-ring {
 	position: absolute;
 	top: -11px;
@@ -166,4 +166,40 @@ body {
 
 .row {
     text-align: center;
+}
+
+.inputSize{
+  border-radius: 10px;
+  resize: none;
+  height: 100px;
+  width: 500px;
+  padding-left: 10px;
+  padding-top: 10px;
+  outline: none;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button5:hover {
+  background-color: black;
+  color: white;
+}
+
+.borderSubmit{
+  border: 15px solid black;
+  margin: 100px;
+  padding: 50px;
 }
