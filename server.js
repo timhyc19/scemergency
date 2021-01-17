@@ -7,12 +7,12 @@ app.use(bodyParser.urlencoded({
   extended: true
 }))
 
-app.listen(3000, () => console.log('listening at 3000'));
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/public/home.html")
 })
+
 
 app.post("/", function(req, res) {
 
@@ -53,3 +53,6 @@ app.post("/", function(req, res) {
 
   res.send("Information is being sent right away, stay safe!")
 })
+
+
+app.listen(process.env.PORT || 3000, () => console.log('listening at 3000'));
