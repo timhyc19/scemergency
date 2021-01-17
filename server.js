@@ -50,8 +50,6 @@ app.post("/", function(req, res) {
     },
   );
 
-
-  res.send("Information sent.")
 })
 
 
