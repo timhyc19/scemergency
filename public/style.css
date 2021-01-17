@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin:700);
+@import "compass/css3";
 
 body {
   padding-top: 2em;
@@ -169,12 +170,12 @@ body {
 }
 
 .inputSize{
-  border-radius: 10px;
+  border-radius: 20px;
   resize: none;
-  height: 100px;
-  width: 500px;
-  padding-left: 10px;
-  padding-top: 10px;
+  height: 150px;
+  width: 600px;
+  padding-left: 20px;
+  padding-top: 15px;
   outline: none;
 }
 
@@ -190,7 +191,7 @@ body {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .button5:hover {
@@ -198,8 +199,24 @@ body {
   color: white;
 }
 
-.borderSubmit{
-  border: 15px solid black;
-  margin: 100px;
-  padding: 50px;
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.bodyClass{
+  display: block;
+  font-family: Montserrat-Regular, sans-serif
+  t
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+.bs-example {
+		margin: 20px;
+	}
+
+.form-control:focus {
+  border-color: #fdec6e;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.075) inset, 0px 0px 18px #fdec6e;
 }

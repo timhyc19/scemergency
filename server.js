@@ -51,7 +51,7 @@ app.post("/", function(req, res) {
   );
 
 
-  res.send("Information is being sent right away, stay safe!")
+  res.send("Information sent.")
 })
 
 
