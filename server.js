@@ -7,6 +7,13 @@ app.use(bodyParser.urlencoded({
   extended: true
 }))
 
+app.use(express.static(__dirname + '/public'));
+
+app.get("/", function(req, res) {
+  res.sendFile(__dirname + "/public/home.html")
+})
+
+
 app.post("/", function(req, res) {
 
   const Nexmo = require('nexmo');
@@ -49,8 +56,3 @@ app.post("/", function(req, res) {
 
 
 app.listen(process.env.PORT || 3000, () => console.log('listening at 3000'));
-app.use(express.static('public'));
-
-app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/public/home.html")
-})
