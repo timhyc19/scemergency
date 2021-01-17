@@ -1,6 +1,6 @@
 # Somebody Call 911 
 
-[<img src="https://img.youtube.com/vi/hl83m2NyuI4/maxresdefault.jpg" width="70%">](https://youtu.be/hl83m2NyuI4)]
+[<img src="https://img.youtube.com/vi/hl83m2NyuI4/maxresdefault.jpg" width="70%">](https://youtu.be/hl83m2NyuI4)
 
 
 ## Inspiration ☁️: 
